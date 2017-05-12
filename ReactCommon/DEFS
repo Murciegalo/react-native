@@ -2,7 +2,7 @@
 
 # Building is not supported in OSS right now
 def rn_xplat_cxx_library(**kwargs):
-  pass
+  cxx_library(name = kwargs['name'])
 
 GLOG_DEP = "//ReactAndroid/build/third-party-ndk/glog:glog"
 
